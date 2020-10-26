@@ -1,0 +1,29 @@
+.hero {
+  height: 61vh;
+  width: 100%;
+  h1 {
+    padding-top: 12rem;
+    color: white;
+    font-size: 2.8rem;
+    line-height: 1;
+    margin-left: 2rem;
+  }
+  .hero__NextIcon {
+    margin-left: 2rem;
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    .hero__Icon {
+      background: #fbb03b;
+      border-radius: 50%;
+      padding: 0.3rem;
+    }
+    span {
+      display: block;
+      margin-left: 1rem;
+      font-weight: 700;
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+}

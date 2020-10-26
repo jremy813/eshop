@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  .header__Left {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 1rem;
+    }
+    span {
+      font-size: 17px;
+      font-weight: 400;
+    }
+  }
+  .header__Middle {
+    display: none;
+  }
+  .header__Right {
+    display: flex;
+    align-items: center;
+    .icon {
+      margin-right: 1rem;
+    }
+  }
+}
