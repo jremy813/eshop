@@ -1,6 +1,11 @@
 .hero {
   height: 61vh;
   width: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   h1 {
     padding-top: 12rem;
     color: white;
