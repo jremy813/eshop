@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header.js'
 import Hero from './components/Hero'
 import Recommended from './components/Recommended'
+import Footer from './components/Footer'
 import Icon1 from './assets/Free Shipping.png'
 import Icon2 from './assets/Payments.png'
 import Icon3 from './assets/Money.png'
@@ -40,6 +41,7 @@ function App() {
         </div>
 
       </section>
+      <Footer />
        </div>
   );
 }
