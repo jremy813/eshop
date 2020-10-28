@@ -39,7 +39,7 @@ function Recommended() {
           <div className='recommended__Listing'>
               
              {data.map(data => (
-                 <>
+                 <div>
                   <img className='recommended__Image' src={data.image} />
                   
                   
@@ -47,7 +47,7 @@ function Recommended() {
                       <span>{data.name}</span>
                       <span>{data.price}</span>
                   </div>
-                  </>
+                  </div>
              ))}
           </div>
             
