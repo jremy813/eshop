@@ -9,22 +9,22 @@ function Recommended() {
 
         const data = [
             {
-            image:`url(${Image1})`,
+            image:`${Image1}`,
             name: 'T-Shirt Summer Vibes',
             price:'$89.99'
             },
             {
-                image:`url(${Image2})`,
+                image:`${Image2}`,
                 name: 'Loose Knit 3/5 Sleeve',
                 price:'$119.99'
             },
             {
-                image:`url(${Image3})`,
+                image:`${Image3}`,
                 name:'Basic Slim Fit T-Shirt',
                 price:'$79.99',
             },
             {
-                image:`url(${Image4})`,
+                image:`${Image4}`,
                 name:'Loose Textured T-Shirt',
                 price:'$199.99'
             }
@@ -40,9 +40,9 @@ function Recommended() {
               
              {data.map(data => (
                  <>
-                  <div className='recommended__Image' style={{backgroundImage: data.image}}>
+                  <img className='recommended__Image' src={data.image} />
                   
-                  </div>
+                  
                   <div className='recommended__Item'>
                       <span>{data.name}</span>
                       <span>{data.price}</span>
