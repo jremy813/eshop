@@ -2,3 +2,30 @@
   margin: 0;
   padding: 0;
 }
+
+.app__ChooseUs {
+  padding: 2rem;
+}
+
+.app__ChooseUs > h3 {
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+}
+
+.app__Icons {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.app__Icons > div > span {
+  display: block;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.app__Icons > div > p {
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
