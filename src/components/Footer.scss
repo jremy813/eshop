@@ -29,3 +29,19 @@
     }
   }
 }
+
+.footer__Info2 {
+  display: flex;
+  flex-direction: column;
+  div:first-child {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
+  div:last-child span {
+    margin-bottom: 1rem;
+  }
+  span {
+    display: block;
+  }
+}

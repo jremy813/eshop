@@ -19,22 +19,22 @@ function App() {
         <h3>Why should you choose us?</h3>
         <div className='app__Icons'>
           <div>
-            <img src={Icon1} />
+            <img src={Icon1} alt='free shipping icon' />
             <span>Free Shipping</span>
             <p>All purchases over $199 are eligible for free shipping via USPS First Class Mail</p>
           </div>
           <div>
-            <img src={Icon2} />
+            <img src={Icon2} alt='easy payments icon'/>
             <span>Easy Payments</span>
             <p>All payments are processed instantly over a secure payment protocol</p>
           </div>
           <div>
-            <img src={Icon3} />
+            <img src={Icon3} alt='money back gurantee icon'/>
             <span>Money-Back Gurantee</span>
             <p>If an item arrived damaged or you've changed your mind, you can send it back for a full refund</p>
           </div>
           <div>
-            <img src={Icon4} />
+            <img src={Icon4} alt=' Finest quality icon'/>
             <span>Finest Quality</span>
             <p>Designed to last, each of our products has been crafted with the finest materials</p>
           </div>

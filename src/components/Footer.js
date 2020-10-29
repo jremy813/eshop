@@ -36,6 +36,18 @@ everyone in between – but most importantly, for the fashionable</p>
 
                     </div>
                 </div>
+                <div className='footer__Info2'>
+                    <div>
+                        <span>Shopping Online</span>
+                    </div>
+                    <div>
+                        <span>Order Status</span>
+                        <span>Shipping and Delivery</span>
+                        <span>returns</span>
+                        <span>Payment Options</span>
+                        <span>Contact Us</span>
+                    </div>
+                </div>
             </div>
             
         </div>
